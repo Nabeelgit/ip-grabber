@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    background-color: green;
+    color: white;
+}
+h1, h2 {
+    margin: 0;
+}
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    margin-top: 2rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container p, .container strong {
+    padding: 1rem;
+}
+.code {
+    padding: 1rem;
+    background-color: rgb(205, 205, 205);
+    width: 15rem;
+    text-align: center;
+}
